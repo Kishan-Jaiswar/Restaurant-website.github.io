@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav1">
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>KJ's Food</a>
+            <div class="links">
+                <a href="home.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="#">Blogs</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="cart-btn" class="fas fa-shopping-cart"></div>
+                <div class="fas fa-user" onclick="myFunction()">
+                    <div class="hero" id="form">
+                        <div class="form-box">
+                            <div class="fas fa-times" onclick="myFunction2()"></div>
+                            <div class="button-box">
+                                <div id="btn"></div>
+                                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                            </div>
+                            <form action="" id="login" class="input-group">
+                                <input type="text" class="input-field" placeholder="Enter E-mail" required>
+                                <input type="password" class="input-field" placeholder="Enter Password" required>
+                                <input type="checkbox" class="check-box"><span>Remember me</span>
+                                <button type="submit" class="submit-btn">Login</button>
+                            </form>
+                            <form action="" id="register" class="input-group">
+                                <input type="text" class="input-field" placeholder="Full Name" required>
+                                <input type="text" class="input-field" placeholder="Phone" autocomplete="off"
+                                    maxlength="12" minlength="10" required>
+                                <input type="email" class="input-field" placeholder="Enter E-mail" required>
+                                <input type="password" class="input-field" placeholder="Create Password" required>
+                                <input type="checkbox" class="check-box" required><span>I agree to the terms &
+                                    conditions</span>
+                                <button type="submit" class="submit-btn">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <div class="fakeimg">
+                    <img src="lollypop.jpg" alt="">
+                </div>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <div class="fakeimg">
+                    <img src="chickenlollipop2.webp" alt="">
+                </div>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg">
+                    <img src="" alt="" style="height: 150px;">
+                </div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim.. Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Magni at placeat eos molestiae numquam, voluptate ut quis alias, quod
+                    illo fugiat.</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">
+                    <img src="red meat.jpg" alt="">
+                </div>
+                <div class="fakeimg">
+                    <img src="veg pullav.jpg" alt="">
+                </div>
+                <div class="fakeimg">
+                    <img src="Chicken curry.jpg" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
